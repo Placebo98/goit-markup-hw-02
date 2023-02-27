@@ -19,6 +19,7 @@
 
 body {
 	font-family: "Roboto", sans-serif;
+	background: #FFFFFF;
 }
 
 .list {
@@ -78,6 +79,14 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--header-link-color);
 }
+
+.header-link:hover {
+	color: var(--accent-color);
+}
+.header-link:focus {
+	color: var(--accent-color);
+}
+
 .contacts {
 }
 .contacts-list {
@@ -121,6 +130,15 @@ body {
 	letter-spacing: 0.04em;
 	color: var(--hero-btn-text-color);
 	background: var(--accent-color);
+}
+
+.hero-btn:hover  {
+	background: var(--portfolio-btn-background-color);
+	color: var(--accent-color)
+}
+.hero-btn:focus  {
+	background: var(--portfolio-btn-background-color);
+	color: var(--accent-color)
 }
 
 /* ------------------Features Section----------------- */
